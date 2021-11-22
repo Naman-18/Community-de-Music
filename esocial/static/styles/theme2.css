@@ -1,17 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
 
  :root {
-  --color-main: #00cc99;
-  --color-main-light: #e1f6fb;
-  --color-dark: #292b2c;
-  --color-dark-medium: #242B2E;
-  --color-dark-light: #758283;
-  --color-light: #e5e5e5;
-  --color-gray: #8b8b8b;
-  --color-light-gray: #b2bdbd;
-  --color-bg: #525252;
-  --color-success: #5dd693;
-  --color-error: #fc4b0b;
+    --color-main:#35BDD0;
+    --color-main-light: #e1f6fb;
+    --color-dark: #242B2E;
+    --color-dark-medium:#808080;
+    --color-dark-light: #758283;
+    --color-light: #e5e5e5;
+    --color-gray: #8b8b8b;
+    --color-light-gray: #b2bdbd;
+    --color-bg: #01080f;
+    --color-success: #5dd693;
+    --color-error: #fc4b0b;
 } 
 
 
@@ -383,7 +383,7 @@ a {
 }
 
 .dropdown-button:hover svg {
-  fill: var(--color-main);
+  fill: var(--color-light);
 }
 
 /*==============================
