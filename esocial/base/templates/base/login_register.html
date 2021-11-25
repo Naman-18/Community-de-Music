@@ -16,6 +16,7 @@
 
         <form class="form" action="" method="POST">
           {% csrf_token %}
+          {{ form.as_p }}
           <div class="form__group form__group">
             <label for="room_name">Email</label>
             <input id="username" name="email" type="email" placeholder="Enter Username"/>
@@ -61,13 +62,12 @@
 
         <form class="form" action="" method="POST">
           {% csrf_token %}
-
           {% for field in form %}
           <div class="form__group form__group">
             <label for="room_name">{{field.label}}</label>
             {{field}}
           </div>
-          {% endfor %}
+          {% endfor %} 
 
 
           <button class="btn btn--main" type="submit">
